@@ -96,7 +96,7 @@ void namesort_bubble(){
 }
 void display(){
     printf("----STUDENT RECORD---- :\n");
-    printf("ROLL_NO\t\tNAME\t\t\tAGE\n");
+    printf("ROLL_NO\t\tNAME\t\tAGE\n");
     for(i=0; i<n; i++) {
         printf("%d\t\t%s\t\t%d\n",s[i].roll_no,s[i].name,s[i].age);
     }
