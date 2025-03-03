@@ -166,7 +166,7 @@ int choice,ch,op,c,opt,option;
 	   	default:
 	   	printf("Invalid choice");
 	   }
-	   printf("Do you want to continue(1/0) :");
+	   printf("press 1 for going to main menu :");
 	   scanf("%d",&opt);
 	}while(opt==1);
 	return 0;
