@@ -3,7 +3,7 @@
 int queue[size];
 int front=-1,rear=-1;
 void enqueue(int value){
-    if(rear==size-1-1){
+    if(rear==size-1){
         printf("Queue is full !\n");
         return;
     }
